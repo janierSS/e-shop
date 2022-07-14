@@ -1,0 +1,52 @@
+.container{
+  min-width: 20rem;
+  height: 28rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.price{
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.star{
+  color: #E45826;
+  width: 20px;
+  height: 20px;
+}
+
+.button{
+  background: #E45826;
+  height: 48px;
+  width: 10rem;
+  border-radius: 15px;
+  align-self: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #1B1A17;
+  box-shadow: 1.5px 1.5px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.button:hover{
+  height: 3.2rem;
+  width: 11rem;
+  font-size: 18px;
+}
+
+.image{
+  height: 10rem;
+  width: 13rem;
+  background: white;
+  align-self: center;
+  
+}
